@@ -1,0 +1,195 @@
+html, body, table{
+    height:100%;
+}
+
+body{
+    font-family: 'Megrim', cursive;
+    margin:0;
+    position:relative;
+}
+
+/***********************/
+/***********************/
+/*        NAV          */
+/***********************/
+/***********************/
+
+nav{
+    width:100%;
+    text-align: right;
+    padding-top:10px;
+    vertical-align:middle;
+    background-color: darkslategrey;
+    height:50px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right:20px;
+
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+/***********************/
+/***********************/
+/*        BAN          */
+/***********************/
+/***********************/
+
+img{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+/***********************/
+/***********************/
+/*       P INDEX       */
+/***********************/
+/***********************/
+
+.container{
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:50px;
+    padding-top:50px;
+    font-family: 'Muli', sans-serif;
+    position:relative;
+}
+
+/***********************/
+/***********************/
+/*        TAB          */
+/***********************/
+/***********************/
+
+table{
+    margin:auto;
+    padding-top:30px;
+    margin-bottom:50px;
+}
+td{
+    padding: 20px 15px;
+}
+
+thead tr td {
+    background-color: #193654;
+}
+
+.tdbody{
+    font-family: 'Muli', sans-serif;
+}
+
+tr:nth-child(odd){
+    background-color: #94C0BA;
+    color:#fff;
+}
+
+
+#tab2{
+    height:50px;
+    text-align:center;
+}
+
+/***********************/
+/***********************/
+/*        FORM         */
+/***********************/
+/***********************/
+
+form{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:25px;
+    width:50%;
+}
+label{
+    font-family: 'Muli', sans-serif;
+}
+
+fieldset{
+    border:1px solid #94C0BA;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+legend{
+    color: #193654;
+}
+
+input, textarea, select, option {
+    background-color:#D3EDEA;
+}
+input, textarea, select, button{
+    border-radius:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+input[type=submit], input[type=reset], button[type=button] {
+    margin-top:20px;
+    background-color: #193654;
+    margin-left:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    cursor:pointer;
+    color:#fff;
+    border-radius:5px;
+    height:22px;
+    float:right;
+}
+
+input[type=submit]:focus, input[type=reset]:focus, button[type=button]:focus{
+    color: #193654;
+}
+
+/***********************/
+/***********************/
+/*        DEVIS        */
+/***********************/
+/***********************/
+
+#searchDevis{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    width:50%;
+}
+
+#searchButton{
+    background:none;
+    box-shadow:none;
+    float:right;
+}
+
+/***********************/
+/***********************/
+/*        FOOTER       */
+/***********************/
+/***********************/
+
+footer{
+    position:absolute;
+
+    width:100%;
+    height:100px;
+    background-color: darkslategrey;
+}
+
+i, .fa-linkedin-square{
+    color: white;
+    margin:20px;
+    float: right;
+}
+footer p {
+    color:#fff;
+    text-align:center;
+    margin-top:35px;
+    float: left;
+    margin-left: 35%;
+}
